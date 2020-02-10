@@ -218,6 +218,10 @@ vertical-align: center;
 color: #FFFFFF;
 
 }
+.card_name a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
 .card-group {
   /* margin-top: 20px; */
   padding-bottom: 35px;
