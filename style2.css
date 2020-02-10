@@ -217,26 +217,11 @@ footer {
 }
 /* мобильная версия 600px */
 @media(max-width: 600px) {
-  .nav_display {display: none;}
-  .caption_h1 {font-size: 32px; line-height: 42px;}
-  .pic_none {
-    /* width: 0%; */
-    padding: 5px;
-  }
-  .questions {
-  left: 5%;
-  }
+
   .card_name {
     height: 100%;
     font-size: 12px;
     padding-top: 5px;
-  }
-  .present_pic {
-    width: 60%;
-  }
-  .block_present1 {
-    top: 8%;
-    left: 0%;
   }
   .btn {
     margin-top: 5px;
@@ -253,31 +238,11 @@ footer {
   justify-content: center;
   
 }
-.visit_block1 {
-  display: none;
-}
-.visit_block2 {
-  border: 5px solid #1d1018;
-  padding: 15px;
-  margin-top: 10px;
-}
+
 .card-group > .card {
   margin-bottom: 0px;
 }
-input[type="text"] {
-  margin: 5px;
-}
-.btn-visit {
-  margin-top: 10px;
-}
-.info_block {
-  display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
-}
-.info_block_desc p {
+.none {
   display: none;
 }
 .info_block_desc h5 {
@@ -288,15 +253,6 @@ input[type="text"] {
   font-weight: 500;
   font-size: 20px;
   line-height: 29px; 
-}
-.info_p {
-  width: 90vw;
-  margin-bottom: 10px;
-}
-.info_block_pics img {
-  width: 90vw;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 .card_reviews {
   height: 80vh;
@@ -325,9 +281,7 @@ input[type="text"] {
   font-size: 24px;
   line-height: 36px;
 }
-.caption {
-  padding-bottom: 30px;
-}
+
 .block_nav {
   display: none;
 }
@@ -339,14 +293,20 @@ header {
 body {
   overflow-x:hidden;
 }
-.fb_1, .fb_2, .fb_3 {
-  display: none;
+.container {
+  width: 100vw;
 }
-.cap_main {
-text-align: center;
-margin-bottom: 30px;
-font-size: 32px;
-line-height: 32px;
+.caption {
+  font-size: 24px;
+  line-height: 28px;
+}
+.caption h2{
+  font-size: 24px;
+  line-height: 28px;
+}
+.caption .dop_caption{
+  font-size: 18px;
+  line-height: 24px;
 }
 
 }
